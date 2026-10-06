@@ -1,0 +1,32 @@
+{
+  "container": {
+    "magic": "HORS",
+    "container_version": 1,
+    "cipher": "AES-256-GCM",
+    "signature": "ECDSA-P256 over SHA-256",
+    "signature_valid": true
+  },
+  "config": {
+    "format_version": 2,
+    "slug": "horse-empire-2016-test",
+    "display_name": "Horse Empire",
+    "launcher_api": {
+      "host": "78.17.213.164",
+      "port": 443,
+      "path_prefix": "/api/launcher/"
+    },
+    "art_credit": "Thanks for the Discord art Bunni!",
+    "game_servers": {
+      "2020": {"host": "162.35.243.182", "port": 20000},
+      "2018": {"host": "162.35.243.182", "port": 18000},
+      "2016": {"host": "162.35.243.182", "port": 16000},
+      "2014": {"host": "162.35.243.182", "port": 13000}
+    },
+    "artwork": [
+      {"type": 0, "format": "JPEG", "bytes": 242967, "dimensions": "1159x688"},
+      {"type": 1, "format": "JPEG", "bytes": 3612213, "dimensions": "4769x2548"},
+      {"type": 2, "format": "PNG", "bytes": 55003, "dimensions": "310x214"},
+      {"type": 3, "format": "PNG", "bytes": 294644, "dimensions": "1140x834"}
+    ]
+  }
+}
